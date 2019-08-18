@@ -1,0 +1,20 @@
+{
+    "teachers": [
+        {
+            "name": "Patricio Anabalón",
+            "twitter": "pato_anabalon"
+        },
+        {
+            "name": "Julio paredes",
+            "twitter": "jparedes"
+        },
+        {
+            "name": "Elena fuentes",
+            "twitter": "elena"
+        },
+        {
+            "name": "Carlos Sanchez",
+            "twitter": "csanchez"
+        }
+    ]    
+}
