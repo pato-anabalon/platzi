@@ -13,6 +13,20 @@ module.exports = {
       {
         // test: que tipo de archivo quiero reconocer
         // use: que loader se va a encargar del archivo
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+              presets:[['@babel/preset-env', {
+                "targets": {"node": "current"}
+              }]]
+          }
+        },
+      },
+      {
+        // test: que tipo de archivo quiero reconocer
+        // use: que loader se va a encargar del archivo
         test: /\.css$/,
         // use: ['style-loader', 'css-loader']
         use: ExtractTextPlugin.extract({
